@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom';
+import RequireAuth from './RequireAuth';
 import Login from './Login';
 import FitnessClass from './FitnessClass';
 import Register from './Register';
@@ -19,6 +20,15 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/class' element={<FitnessClass />} />
+          {/* TODO: Uncomment once backend authentication is working and delete the path above*/}
+          {/* <Route
+            path='/class'
+            element={
+              <RequireAuth>
+                <FitnessClass />
+              </RequireAuth>
+            }
+          /> */}
         </Routes>
       </main>
     </div>
