@@ -11,7 +11,7 @@ body {
 /* registration style */
 
 .register-container{
-  border: blue solid;
+  /* border: blue solid; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -68,7 +68,7 @@ padding-top: 10px;
 
 
 .login-container{
-  border: blue solid;
+  /* border: blue solid; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -84,6 +84,6 @@ background: linear-gradient(90deg, rgba(27,63,212,1) 0%, rgba(224,30,68,1) 51%, 
 }
 
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
