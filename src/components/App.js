@@ -7,13 +7,15 @@ import Register from './Register';
 function App() {
   return (
     <div>
-      <header>
+      <header className='navBarHeader'>
         <h1>Anywhere Fitness</h1>
+        <div>
         <nav>
           <Link to='/login'>Login</Link>
           <Link to='/register'>Register</Link>
           <Link to='/class'>Class</Link>
         </nav>
+        </div>
       </header>
       <main>
         <Routes>

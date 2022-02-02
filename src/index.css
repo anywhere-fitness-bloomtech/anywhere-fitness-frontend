@@ -6,3 +6,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+/* 
+nav bar styling */
+
+.navBarHeader {
+ text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 25%;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: pink;
+}
+
+a{
+  text-decoration: none;
+  background-color: blanchedalmond;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  color:blueviolet
+}
