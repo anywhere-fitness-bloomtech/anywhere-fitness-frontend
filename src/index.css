@@ -6,3 +6,80 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* registration style */
+
+.register-container{
+  /* border: blue solid; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background: rgb(27,63,212);
+background: linear-gradient(90deg, rgba(27,63,212,1) 0%, rgba(224,30,68,1) 51%, rgba(223,213,23,1) 100%);
+}
+.register{
+text-align: center;
+}
+
+.username{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.password{
+  padding-top: 10px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.input-name{
+  padding-right: 8px;
+}
+
+.role{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+.sub-button{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  border-radius: 12px;
+  
+}
+
+
+.register-button:hover{
+  background-color: coral;
+  border-radius: 4px;
+  
+}
+  
+
+/* login style */
+
+
+.login-container{
+  /* border: blue solid; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background: rgb(27,63,212);
+background: linear-gradient(90deg, rgba(27,63,212,1) 0%, rgba(224,30,68,1) 51%, rgba(223,213,23,1) 100%);
+}
+
+.login-button:hover {
+  background-color: coral;
+  border-radius: 4px;
+}
+
