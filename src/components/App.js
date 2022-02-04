@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import RequireAuth from './RequireAuth';
+// import RequireAuth from './RequireAuth';
 import Login from './Login';
 import FitnessClass from './FitnessClass';
 import Register from './Register';
